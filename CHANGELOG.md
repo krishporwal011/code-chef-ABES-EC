@@ -10,3 +10,4 @@ All notable changes to the CodeChef ABESEC Events portal ("Bawarchi Express") wi
 - Implemented `<Photo>` image slot component with aspect ratio framing, lazy loading, blur placeholder, and labeled fallback.
 - Configured Tailwind v4 `@custom-variant dark` directive and updated `ThemeContext` to enable seamless class-based dark/light theme conversion.
 - Restyled Events departures board to authentic Retro Solari Board with brass-riveted frame, unclipped typography, tactile mechanical flap tiles for time & platform, and glowing station signal indicators.
+- Initialized Git repository, connected origin remote, and pushed complete codebase to GitHub (`krishporwal011/code-chef-ABES-EC`).
