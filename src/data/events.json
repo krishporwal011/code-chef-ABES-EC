@@ -1,0 +1,267 @@
+[
+  {
+    "id": "devshastra-2026",
+    "pnr": "CC-DS-2026",
+    "title": "DevShastra 2026",
+    "tagline": "The Flagship 24-Hour Hackathon of North India",
+    "description": "Bawarchikhaana lights up for 24 continuous hours! Cook up groundbreaking solutions across AI, Web3, AR/VR, and Fintech. Mentorship from top tech leads, unlimited chai, and intense code-crafting.",
+    "category": "Hackathon",
+    "date": "2026-10-18",
+    "time": "09:00 AM IST",
+    "endTime": "09:00 AM (Next Day)",
+    "platform": "Platform #1 (Main Auditorium & High-Compute Lab 4)",
+    "coach": "Coach A1 (Express Sleeper)",
+    "capacity": 250,
+    "registeredCount": 198,
+    "featured": true,
+    "status": "Filling Fast",
+    "trainName": "DevShastra Superfast 12401",
+    "prizes": {
+      "first": "₹50,000 + TechChef Golden Spatula & Trophy",
+      "second": "₹30,000 + Cloud Credits",
+      "third": "₹15,000 + Swag Kits",
+      "goodies": "Stickers, T-shirts & Certificate for all passengers"
+    },
+    "rules": [
+      "Squad of 2 to 4 tech chefs allowed per berth.",
+      "All code must be baked during the 24-hour sprint; pre-existing repositories will be flagged.",
+      "Bring your own spices (laptops, chargers, extension cords).",
+      "Freshly cooked GitHub repos must be submitted with valid commit history."
+    ],
+    "eligibility": "Open to all engineering students (1st to 4th year across all branches)."
+  },
+  {
+    "id": "clash-of-coders-3",
+    "pnr": "CC-HP-303",
+    "title": "COC 3.0: The Triwizard Algorithm Cup",
+    "tagline": "Harry Potter-Themed House Coding Duel",
+    "description": "Sorted into four grand Houses (Gryffindor, Ravenclaw, Hufflepuff, Slytherin), programmers clash in algorithmic duels. Cast spells using recursion, defeat horcruxes using dynamic programming, and lead your House to glory.",
+    "category": "Competitive Coding",
+    "date": "2026-10-28",
+    "time": "02:00 PM IST",
+    "platform": "Platform #9¾ (Computer Lab 1 & 2)",
+    "coach": "Hogwarts Express Berth 9",
+    "capacity": 160,
+    "registeredCount": 142,
+    "featured": false,
+    "status": "Filling Fast",
+    "trainName": "Hogwarts Express 5972",
+    "prizes": {
+      "first": "₹15,000 + House Cup Trophy + Wands & Merch",
+      "second": "₹10,000 + Merch Kit",
+      "third": "₹5,000 CodeChef Vouchers"
+    },
+    "rules": [
+      "House sorting will happen at the boarding gate.",
+      "Language allowed: C++, Java, Python, Rust.",
+      "Plagiarism checks via MOSS will turn cheats into stone."
+    ],
+    "eligibility": "All college coders who dare face the Sorting Hat."
+  },
+  {
+    "id": "once-upon-a-crime",
+    "pnr": "CC-OUAC-07",
+    "title": "Once Upon a Crime",
+    "tagline": "A 2-Day Murder-Mystery of Logic, Code & Cipher Decryption",
+    "description": "A cyber heist has rocked the Bawarchikhaana! The secret algorithm recipe was stolen, and the culprit left encrypted terminal logs, hidden audio packets, and corrupt memory dumps. Assemble your detective squad and crack the case.",
+    "category": "Fun/Quiz",
+    "date": "2026-11-05",
+    "time": "11:00 AM IST",
+    "platform": "Platform #3 (Seminar Hall 2 & Cyberspace)",
+    "coach": "Mystery Express Coach M-07",
+    "capacity": 120,
+    "registeredCount": 110,
+    "featured": false,
+    "status": "Filling Fast",
+    "trainName": "Orient Mystery Express 1007",
+    "prizes": {
+      "first": "₹12,000 + Detective Trench Swag",
+      "second": "₹8,000 + Mystery Box",
+      "third": "₹4,000 + Certificates"
+    },
+    "rules": [
+      "Squads of 2 to 3 investigators.",
+      "Decode OSINT, base64 ciphers, and debug faulty forensic scripts.",
+      "First team to solve the murder with full forensic proof wins."
+    ],
+    "eligibility": "Open to puzzle solvers, hackers, and sleuths."
+  },
+  {
+    "id": "head-node",
+    "pnr": "CC-HN-101",
+    "title": "Head Node: Senior Chef Mentorship",
+    "tagline": "Bridge the Node — Senior Bawarchis Guide Junior Apprentices",
+    "description": "Navigating college, DSA roadmaps, open source, and internship prep can feel overwhelming. Head Node pairs 1st & 2nd years with seasoned 3rd & 4th year seniors who cracked FAANG, GSOC, and top product startups.",
+    "category": "Mentorship",
+    "date": "2026-11-12",
+    "time": "04:00 PM IST",
+    "platform": "Platform #5 (Bawarchikhaana Discussion Arena)",
+    "coach": "Mentor Coach M-01",
+    "capacity": 100,
+    "registeredCount": 88,
+    "featured": false,
+    "status": "Open",
+    "trainName": "Mentorship Rajdhani 2001",
+    "prizes": {
+      "first": "1-on-1 Personalized Resume & Mock Interview Sessions for all attendees"
+    },
+    "rules": [
+      "Bring your laptop, resume draft, and your burning doubts.",
+      "Active participation in breakout roundtable stations is expected."
+    ],
+    "eligibility": "Primarily designed for 1st & 2nd Year B.Tech students."
+  },
+  {
+    "id": "clash-of-coders-2",
+    "pnr": "CC-COC-20",
+    "title": "Clash of Coders 2.0",
+    "tagline": "Algorithmic Showdown on the Main Track",
+    "description": "The second edition of our high-voltage competitive programming sprint. 3 hours, 6 progressively spicy algorithmic dishes (from warm-up arrays to flaming segment trees). Real-time leaderboard projected on the main station display.",
+    "category": "Competitive Coding",
+    "date": "2026-11-20",
+    "time": "03:00 PM IST",
+    "platform": "Platform #2 (Central Server Room Labs)",
+    "coach": "Fast-Track Coach C-02",
+    "capacity": 150,
+    "registeredCount": 150,
+    "featured": false,
+    "status": "Sold Out",
+    "trainName": "Shatabdi Speed Coding 12004",
+    "prizes": {
+      "first": "₹10,000 + CodeChef Global Division Badges",
+      "second": "₹6,000 + Mech Keyboards",
+      "third": "₹3,000 + Dev Swag"
+    },
+    "rules": [
+      "Individual participation only.",
+      "Rankings determined by AC count + penalty time.",
+      "No external communication or LLM querying allowed during the round."
+    ],
+    "eligibility": "Open to all student programmers."
+  },
+  {
+    "id": "wrap-it-up",
+    "pnr": "CC-WIU-44",
+    "title": "Wrap It Up: UI/UX & Graphic Cook-off",
+    "tagline": "Where Code Meets Aesthetics and Plating",
+    "description": "Great dishes need mouthwatering presentation. Test your UI/UX design, visual storytelling, and Figma mastery in a fast-paced 6-hour sprint. Redesign a clunky legacy system into an award-winning micro-experience.",
+    "category": "Design",
+    "date": "2026-11-26",
+    "time": "10:00 AM IST",
+    "platform": "Virtual Platform (Discord Studio & Figma Live)",
+    "coach": "Design Coach D-04",
+    "capacity": 100,
+    "registeredCount": 65,
+    "featured": false,
+    "status": "Open",
+    "trainName": "Vande Bharat Design Express 22435",
+    "prizes": {
+      "first": "₹10,000 + 1-Year Figma/Adobe Creative License",
+      "second": "₹6,000 + Graphic Tablet",
+      "third": "₹3,000 + Design Books"
+    },
+    "rules": [
+      "Individual or duo participation.",
+      "Submissions must include Figma link with component architecture and design rationale."
+    ],
+    "eligibility": "Designers, UI devs, and visual artists."
+  },
+  {
+    "id": "clash-of-coders-1",
+    "pnr": "CC-COC-01",
+    "title": "Clash of Coders (Genesis Edition)",
+    "tagline": "The Original Team Algorithmic Battle",
+    "description": "The battle that started it all! Two coders, one keyboard, switching seats every 20 minutes under ticking clocks. The classic recipe for adrenaline, teamwork, and bug-squashing.",
+    "category": "Competitive Coding",
+    "date": "2026-08-15",
+    "time": "02:00 PM IST",
+    "platform": "Platform #4 (Lab 1)",
+    "coach": "Heritage Steam Coach H-01",
+    "capacity": 120,
+    "registeredCount": 120,
+    "featured": false,
+    "status": "Departed",
+    "trainName": "Fairy Queen Express 1855",
+    "prizes": {
+      "first": "₹8,000 + Genesis Champions Plaque"
+    },
+    "rules": [
+      "Team of 2. Single screen tag-team format."
+    ],
+    "eligibility": "All college students."
+  },
+  {
+    "id": "tadka-talks-git",
+    "pnr": "CC-TT-88",
+    "title": "Tadka Talks: Git & Open Source Mastery",
+    "tagline": "From git init to GSoC Selected: The Kitchen Recipe",
+    "description": "Untangle merge conflicts, master interactive rebase, and learn how to contribute to high-impact open-source repositories without breaking the build. Live simulation with hands-on Pull Requests.",
+    "category": "Workshop",
+    "date": "2026-12-02",
+    "time": "03:30 PM IST",
+    "platform": "Platform #1 (Auditorium)",
+    "coach": "Workshop Coach W-08",
+    "capacity": 200,
+    "registeredCount": 134,
+    "featured": false,
+    "status": "Open",
+    "trainName": "OpenSource InterCity 14041",
+    "prizes": {
+      "first": "Exclusive GitHub Swag Kits & Pro Badges"
+    },
+    "rules": [
+      "Laptop with git and GitHub CLI pre-installed."
+    ],
+    "eligibility": "Anyone eager to understand version control properly."
+  },
+  {
+    "id": "masala-quest",
+    "pnr": "CC-MQ-99",
+    "title": "Masala Quest: Bug Bounty & Tech Trivia",
+    "tagline": "Fast Buzzer Rounds, Esoteric Bugs & Midnight Chai",
+    "description": "Who remembers the year JavaScript was invented in 10 days? Can you spot the memory leak in this C snippet in 15 seconds? A lightning-fast tech trivia competition packed with laughs, memes, and live buzzer rounds.",
+    "category": "Fun/Quiz",
+    "date": "2026-12-10",
+    "time": "05:00 PM IST",
+    "platform": "Platform #6 (Open Amphitheatre)",
+    "coach": "Festival Car F-99",
+    "capacity": 180,
+    "registeredCount": 115,
+    "featured": false,
+    "status": "Open",
+    "trainName": "Toofan Express 13007",
+    "prizes": {
+      "first": "₹8,000 Cash + TechChef Trivia Crown",
+      "second": "₹5,000 Cash + Swag Hamper",
+      "third": "₹2,500 Cash"
+    },
+    "rules": [
+      "Teams of 2. Smartphone required for live buzzer rounds."
+    ],
+    "eligibility": "All students with curiosity and quick reflexes."
+  },
+  {
+    "id": "byte-bites-ai",
+    "pnr": "CC-BB-12",
+    "title": "Byte Bites: Edge AI & Micro-Agents",
+    "tagline": "Hands-on Sprint: Running LLMs in the Browser with WebGPU",
+    "description": "Leave heavy cloud APIs behind! Learn how to run local quantized models in the client browser with WebGPU, build small autonomous agent workflows, and deploy an offline AI assistant in under 3 hours.",
+    "category": "Workshop",
+    "date": "2026-12-18",
+    "time": "01:30 PM IST",
+    "platform": "Platform #2 (AI Research Lab)",
+    "coach": "Future Coach AI-01",
+    "capacity": 80,
+    "registeredCount": 68,
+    "featured": false,
+    "status": "Open",
+    "trainName": "Vande Bharat AI 20901",
+    "prizes": {
+      "first": "Access to GPU Cloud Credits + AI Engineering Toolkit"
+    },
+    "rules": [
+      "Basic JavaScript / Python knowledge required."
+    ],
+    "eligibility": "3rd & 4th year tech chefs or experienced enthusiasts."
+  }
+]

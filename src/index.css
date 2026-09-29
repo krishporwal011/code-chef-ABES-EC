@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-paper-light: #F6EFE3;
+  --color-paper-dark: #121110;
+  --color-card-light: #FFFDF9;
+  --color-card-dark: #1C1A17;
+  --color-ink-light: #1B1A17;
+  --color-ink-dark: #EDE6DA;
+  --color-border-light: #DDD2C1;
+  --color-border-dark: #38342D;
+  --color-tomato: #E8452C;
+  --color-tomato-hover: #CF3B24;
+  --color-turmeric: #F5B82E;
+  --color-turmeric-dark: #DDA11B;
+  --color-coriander: #1B5E20;
+  --color-coriander-light: #2E7D32;
+
+  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-sans: 'DM Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+/* Paper Grain Texture Overlay */
+.paper-texture {
+  background-image: radial-gradient(rgba(27, 26, 23, 0.04) 1px, transparent 0);
+  background-size: 16px 16px;
+}
+
+.dark .paper-texture {
+  background-image: radial-gradient(rgba(237, 230, 218, 0.05) 1px, transparent 0);
+  background-size: 16px 16px;
+}
+
+/* Ticket Perforation & Notches */
+.ticket-notch-left {
+  position: absolute;
+  top: 50%;
+  left: -12px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--color-paper-light);
+  border: 1px solid var(--color-border-light);
+  z-index: 20;
+}
+
+.dark .ticket-notch-left {
+  background-color: var(--color-paper-dark);
+  border-color: var(--color-border-dark);
+}
+
+.ticket-notch-right {
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--color-paper-light);
+  border: 1px solid var(--color-border-light);
+  z-index: 20;
+}
+
+.dark .ticket-notch-right {
+  background-color: var(--color-paper-dark);
+  border-color: var(--color-border-dark);
+}
+
+/* Rubber Stamp Styling */
+.rubber-stamp {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  text-transform: uppercase;
+  font-family: var(--font-mono);
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  border: 2px dashed currentColor;
+  transform: rotate(-3deg);
+  mask-image: radial-gradient(circle, black 80%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.rubber-stamp-alt {
+  transform: rotate(3.5deg);
+}
+
+/* Split-Flap Character Card */
+.split-flap-char {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #171614;
+  color: #F5B82E;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  border-radius: 4px;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.split-flap-char::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F6EFE3;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #121110;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DDD2C1;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #38342D;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E8452C;
+}
+
+/* Marquee keyframes */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Hide default cursor on desktop when custom cursor is active */
+@media (hover: hover) and (pointer: fine) {
+  .custom-cursor-active {
+    cursor: none !important;
+  }
+  .custom-cursor-active a,
+  .custom-cursor-active button,
+  .custom-cursor-active input,
+  .custom-cursor-active select,
+  .custom-cursor-active textarea {
+    cursor: none !important;
+  }
+}
+

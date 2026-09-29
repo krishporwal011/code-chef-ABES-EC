@@ -1,0 +1,82 @@
+[
+  {
+    "id": "development",
+    "name": "Development",
+    "stationName": "The Engine Room & Infrastructure",
+    "recipeRole": "Chief Architects of the Digital Diner",
+    "description": "We build high-performance web systems, train trackers, bots, and production portals that keep CodeChef ABESEC running at peak velocity.",
+    "spices": ["React", "Next.js", "TypeScript", "Node.js", "Tailwind", "Docker"],
+    "icon": "Terminal",
+    "stationCode": "DEV-01"
+  },
+  {
+    "id": "cp",
+    "name": "Competitive Programming",
+    "stationName": "Head Chefs of DSA",
+    "recipeRole": "Masters of Algorithmic Flavors",
+    "description": "Crafting the sharpest logic, crunching time complexities to O(1), and coaching students to conquer Division 1 contests and CodeChef Stars.",
+    "spices": ["C++", "Dynamic Programming", "Graph Theory", "Segment Trees", "CodeChef Rating"],
+    "icon": "Cpu",
+    "stationCode": "CP-02"
+  },
+  {
+    "id": "graphics",
+    "name": "Graphics & UI/UX",
+    "stationName": "Plating & Visual Aesthetics",
+    "recipeRole": "Visual Gastronomy Specialists",
+    "description": "Every event ticket, banner, swag hoodie, and UI pixel is meticulously plated. We transform dry tech concepts into visually arresting visual treats.",
+    "spices": ["Figma", "Illustrator", "Blender 3D", "Motion Design", "Color Harmony"],
+    "icon": "Palette",
+    "stationCode": "GFX-03"
+  },
+  {
+    "id": "content",
+    "name": "Content & Editorial",
+    "stationName": "The Menu Curators",
+    "recipeRole": "Storytellers & Word Chefs",
+    "description": "Penning snappy problem narratives, witty Hinglish captions, and high-impact technical blogs that turn complex concepts into digestible meals.",
+    "spices": ["Technical Writing", "Copywriting", "Storyboarding", "Editorial Polish"],
+    "icon": "Feather",
+    "stationCode": "CNT-04"
+  },
+  {
+    "id": "events",
+    "name": "Events & Operations",
+    "stationName": "Floor Managers & Station Master",
+    "recipeRole": "Logistical Maestros",
+    "description": "Guiding thousands of attendees from the welcome platform to the hackathon berths with zero friction, pristine timekeeping, and electric energy.",
+    "spices": ["Crowd Management", "Stage Logistics", "Real-time Coordination", "Hospitality"],
+    "icon": "Clock",
+    "stationCode": "EVT-05"
+  },
+  {
+    "id": "pr-outreach",
+    "name": "PR & Outreach",
+    "stationName": "Table Reservations & Sponsors",
+    "recipeRole": "Bridge to Industry & Community",
+    "description": "Forging relationships with tier-1 tech sponsors, keynote speakers, colleges nationwide, and alumni working across the global tech landscape.",
+    "spices": ["Corporate Sponsorships", "Alumni Relations", "Speaker Curation", "Networking"],
+    "icon": "Handshake",
+    "stationCode": "PRO-06"
+  },
+  {
+    "id": "social-media",
+    "name": "Social Media",
+    "stationName": "Food Critics & Digital Hype",
+    "recipeRole": "Trendsetters & Community Pulse",
+    "description": "Cooking viral reels, live event coverage, memes, Twitter threads, and keeping our 10,000+ follower community engaged across all feeds.",
+    "spices": ["Instagram Reels", "LinkedIn Stories", "Community Memes", "Live Dispatch"],
+    "icon": "Share2",
+    "stationCode": "SOC-07"
+  },
+  {
+    "id": "production",
+    "name": "Production & AV",
+    "stationName": "Stage & Stream Kitchen",
+    "recipeRole": "Sound, Light & Broadcast Directors",
+    "description": "Managing dynamic audio setups, multi-camera live streams, after-movies, and lighting effects that make DevShastra feel like a stadium festival.",
+    "spices": ["OBS Studio", "Cinematography", "Live Mixing", "Aftermovie Editing"],
+    "icon": "Video",
+    "stationCode": "PRD-08"
+  }
+]
